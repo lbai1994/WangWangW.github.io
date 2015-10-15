@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Feedback page</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="themes/mytheme.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile.structure-1.0.1.min.css" /> 
+  <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script> 
+  <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script> 
+
+</head>
+
+<body>
+  <!-- Page: home  -->
+  <div id="home" data-role="page" data-theme="d">
+    <div data-role="header" data-position="fixed">
+      <h3>Feedback</h3>
+    </div>
+    <div role="main" class="ui-content">
+      <div class="ui-field-contain">
+        <label for="gk-813luVf">Customer name:</label>
+        <input name id="gk-813luVf" type="text">
+      </div>
+      <div class="ui-field-contain">
+        <label for="gk-8139b7J">Customer Contact:</label>
+        <input name id="gk-8139b7J" type="text">
+      </div>
+      
+    </div>
+    <h3>Feedback</h3>
+    <form>
+    <textarea  placeholder="Give us some advice,please!"></textarea>
+    <li>
+    <label for="rate">Rate us out of 10</label>
+    </li>
+    <input type="range" min="0" max="10" />
+    </form>
+    
+    
+    <div data-position="fixed" data-role="footer">
+      <div data-role="navbar">
+        <ul>
+          <li>
+            <a href="Thanks.html" data-icon="star">Rate Restaurant Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
